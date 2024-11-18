@@ -1,0 +1,26 @@
+body {
+  background-color: #93d5ff;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+.quest {
+  background-color: #fff4e6;
+  width: 100px;
+  border-color: #3939bd;
+  border-radius: 6px;
+  margin: 8px;
+  padding: 5px;
+  border-style:groove;
+  transition: transform 0.3s ease-in-out;
+  cursor: default;
+  box-shadow: 2px 2px 3px #000000, 0 0 1em #ffffff, 0 0 0.2em #ff9d00;
+}
+
+.quest:hover{
+  transform: translateY(-5px);
+}
