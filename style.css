@@ -1,0 +1,153 @@
+/*background*/
+body {
+  background-image: url("background.jpg");
+  display: flex;
+  background-size: cover;
+}
+
+p {
+  color: black;
+}
+
+/*headers*/
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+
+/*style for homepage title*/
+.title{
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  text-shadow: 2px 2px 3px #000000, 0 0 1em #ffffff, 0 0 0.2em #f0b351;
+}
+
+/*style for homepage text*/
+.TopText{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: #e7eef6;
+  border: 4px solid #ffffff;
+  border-radius: 7px;
+  margin: 35px;
+  transition: transform 0.3s ease-in-out;
+  cursor: default;
+  box-shadow: 2px 2px 3px #000000, 0 0 1em #ffffff, 0 0 0.2em #ff9d00;
+}
+
+
+
+/* gallery styles */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  
+}
+
+/*About Climate Change*/
+.gallery2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+}
+
+
+
+/* style for each link "info" card */
+.buttons {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d9dee4;
+  border: 4px solid #ffffff;
+  border-radius: 7px;
+  margin: 15px;
+  transition: transform 0.3s ease-in-out;
+  cursor: default;
+  box-shadow: 2px 2px 3px #000000, 0 0 1em #ffffff, 0 0 0.2em #ff9d00;
+}
+
+/*About Climate Change*/
+.buttons2 {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d9dee4;
+  border: 4px solid #ffffff;
+  border-radius: 7px;
+  margin: 15px;
+  transition: transform 0.3s ease-in-out;
+  cursor: default;
+  box-shadow: 2px 2px 3px #000000, 0 0 1em #ffffff, 0 0 0.2em #ff9d00;
+}
+
+
+/*animation style for cards*/
+.buttons:hover{
+  transform: translateY(-15px);
+}
+
+/*About Climate Change*/
+.buttons2:hover{
+  transform: translateY(-5px);
+}
+
+
+
+/* style for the card content */
+.content {
+  padding: 10px;
+}
+
+/* style for the paragraph text in the info cards */
+.buttons p {
+  font-size: 17px;
+}
+
+.buttons2 p {
+  font-size: 17px;
+}
+
+
+
+/* h3 style */
+.buttons h3 {
+  margin-bottom: 10px;
+}
+
+.buttons2 h3 {
+  margin-bottom: 10px;
+}
+
+
+
+/* style for images */
+.buttons img {
+  width: 100%;
+}
+
+.buttons2 img {
+  width: 100%;
+}
+
+
+
+/*links to html pages*/
+a {
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 7px;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #afcef4;
+}
